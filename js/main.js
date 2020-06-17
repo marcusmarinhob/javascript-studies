@@ -25,9 +25,13 @@
 //     alert("Menor de idade");
 // }
 
-var count = 0;
+// var count = 0;
 
-while (count < 5){
+// while (count < 5){
+//     console.log(count);
+//     count = count + 1;
+// }
+
+for( var count = 0; count < 10; count++){
     console.log(count);
-    count = count + 1;
 }
