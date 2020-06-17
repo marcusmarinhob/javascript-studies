@@ -6,11 +6,22 @@
     <title>Javascript Studies</title>
 </head>
 
-<body>
+<body onload="load()">
     <script type="text/javascript" src="js/main.js"> </script> 
 
     <button type="button" onclick="botao()">Clique aqui</button>
     <h3 id="agradecimento"></h3>
+
+    <p onmouseover="changeTextOver(this)" onmouseout="changeTextOut(this)">Passe o mouse aqui...</p>
+    <p onmouseover="changeTextOver(this)" onmouseout="changeTextOut(this)">Passe o mouse aqui...</p>
+    <p onmouseover="changeTextOver(this)" onmouseout="changeTextOut(this)">Passe o mouse aqui...</p>
+    <p onmouseover="changeTextOver(this)" onmouseout="changeTextOut(this)">Passe o mouse aqui...</p>
+
+    <select onchange="funcChange(this)">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+    </select>
 
 </body>
 </html>
