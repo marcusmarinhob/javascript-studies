@@ -1,5 +1,6 @@
 const assert = require('assert');
 const Math = require('../src/math.js')
+const expect = require('chai').expect;
 
 let value = 0;
 
@@ -11,7 +12,7 @@ describe('Math class', function(){
     it('Sum two numbers', function(){
         const math = new Math();
 
-        assert.equal(math.sum(5,5), 10);
+        expect(math.sum(5,5)).to.equal(10);
     });
 
     it('Multiply two numbers');
