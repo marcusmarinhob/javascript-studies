@@ -7,4 +7,6 @@ describe('Math class', function(){
 
         assert.equal(math.sum(5,5), 10);
     });
+
+    it('Multiply two numbers');
 });
